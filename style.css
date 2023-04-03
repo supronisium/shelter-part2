@@ -600,5 +600,13 @@ footer.footer {
 
 /* END INNER PAGES */
 /* ################# Responsive ################## */
+@media only screen and (max-width: 768px) {
+  .our-friends__gallery_inner .items {
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
