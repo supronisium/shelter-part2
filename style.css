@@ -601,6 +601,13 @@ footer.footer {
 /* END INNER PAGES */
 /* ################ Responsive ################# */
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    padding: 0 30px;
+  }
   .our-friends__gallery_inner .items {
     display: grid;
     grid-template-columns: repeat(2, 270px);
