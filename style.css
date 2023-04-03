@@ -599,7 +599,7 @@ footer.footer {
 }
 
 /* END INNER PAGES */
-/* ################# Responsive ################## */
+/* ################ Responsive ################# */
 @media only screen and (max-width: 768px) {
   .our-friends__gallery_inner .items {
     display: grid;
