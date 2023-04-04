@@ -606,7 +606,7 @@ footer.footer {
     margin: 0;
   }
   .header__promo {
-    display: block;
+    flex-wrap: wrap;
   }
   .header__decor {
     text-align: right;
@@ -657,9 +657,15 @@ footer.footer {
   section.help {
     padding: 0;
   }
+  .help__icons {
+    width: auto;
+  }
   .help__icons .icons {
     column-gap: 60px;
     row-gap: 55px;
+  }
+  .help__icons .icon-help {
+    width: 170px;
   }
   section.addition {
     padding: 0;
@@ -695,10 +701,14 @@ footer.footer {
   .footer__decor {
     overflow: hidden;
     flex-grow: 1;
+    width: 1fr;
     text-align: center;
   }
   .footer__decor img {
     margin-bottom: -4px;
+  }
+  .our-friends__gallery_inner {
+    width: auto;
   }
 }
 @media only screen and (max-width: 768px) {
