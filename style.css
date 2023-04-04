@@ -626,8 +626,27 @@ footer.footer {
     width: auto;
     text-align: center;
   }
+  section.about {
+    padding: 0;
+  }
   .about__block {
-    display: grid;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .about__content h1 {
+    width: auto;
+    text-align: center;
+  }
+  .about__content p {
+    text-align: center;
+    width: auto;
+  }
+  .about__decor {
+    text-align: center;
+    padding: 0;
+  }
+  .items {
+    grid-template-columns: repeat(2, 270px);
   }
 }
 @media only screen and (max-width: 768px) {
