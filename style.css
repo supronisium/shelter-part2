@@ -600,6 +600,36 @@ footer.footer {
 
 /* END INNER PAGES */
 /* ################ Responsive ################# */
+@media only screen and (max-width: 1280px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .header__promo {
+    display: block;
+  }
+  .header__decor {
+    text-align: right;
+  }
+  .header__slogan {
+    text-align: center;
+    width: auto;
+    padding-top: 0;
+  }
+  .header__slogan h2 {
+    width: auto;
+  }
+  .header__decor img {
+    width: 50%;
+  }
+  .header__slogan p {
+    width: auto;
+    text-align: center;
+  }
+  .about__block {
+    display: grid;
+  }
+}
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -613,6 +643,11 @@ footer.footer {
     grid-template-columns: repeat(2, 270px);
     grid-column-gap: 40px;
     grid-row-gap: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    padding: 0 10px;
   }
 }
 
