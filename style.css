@@ -645,8 +645,60 @@ footer.footer {
     text-align: center;
     padding: 0;
   }
+  .navigation {
+    width: auto;
+  }
+  .navigation__right {
+    left: auto;
+  }
   .items {
     grid-template-columns: repeat(2, 270px);
+  }
+  section.help {
+    padding: 0;
+  }
+  .help__icons .icons {
+    column-gap: 60px;
+    row-gap: 55px;
+  }
+  section.addition {
+    padding: 0;
+  }
+  .addition__block {
+    width: auto;
+    flex-direction: column-reverse;
+  }
+  .addition__decor {
+    padding: 0;
+    text-align: center;
+  }
+  .addition__content {
+    text-align: center;
+    width: 380px;
+    margin: 0 auto;
+  }
+  section.addition h3, section.addition h5 {
+    width: auto;
+  }
+  .footer__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__questions {
+    width: auto;
+    flex-grow: 0.5;
+  }
+  .footer__visit {
+    width: auto;
+    flex-grow: 0.5;
+  }
+  .footer__decor {
+    overflow: hidden;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .footer__decor img {
+    margin-bottom: -4px;
   }
 }
 @media only screen and (max-width: 768px) {
