@@ -652,7 +652,7 @@ footer.footer {
   }
   .about__decor {
     text-align: center;
-    padding: 67px 0 0 0;
+    padding: 67px 0 95px 0;
   }
   .navigation {
     width: auto;
@@ -666,7 +666,7 @@ footer.footer {
   section.help {
     padding: 0;
   }
-  .help__icons {
+  sass style.scss style.css .help__icons {
     width: auto;
   }
   .help__icons .icons {
