@@ -634,17 +634,20 @@ footer.footer {
     flex-direction: column-reverse;
     padding: 0;
   }
+  .about__content {
+    width: 430px;
+    margin: 0 auto;
+    padding-top: 67px;
+  }
   .about__content h1 {
-    width: auto;
-    text-align: center;
+    width: 370px;
   }
   .about__content p {
-    text-align: center;
     width: auto;
   }
   .about__decor {
     text-align: center;
-    padding: 0;
+    padding: 67px 0 0 0;
   }
   .navigation {
     width: auto;
