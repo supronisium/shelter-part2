@@ -228,21 +228,16 @@ section.about {
   letter-spacing: 0.06em;
 }
 
-.navigation {
-  position: absolute;
-  width: 1200px;
-  margin-top: 210px;
+.slider-our-friends {
+  display: flex;
 }
 
 .navigation__left {
-  position: absolute;
-  z-index: 1;
+  padding-top: 210px;
 }
 
 .navigation__right {
-  position: absolute;
-  left: 1147px;
-  z-index: 2;
+  padding-top: 210px;
 }
 
 .button_bordered a {
