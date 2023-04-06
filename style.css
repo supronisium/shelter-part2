@@ -601,24 +601,30 @@ footer.footer {
     margin: 0;
   }
   .header__promo {
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
   }
   .header__decor {
     text-align: right;
   }
   .header__slogan {
-    text-align: center;
-    width: auto;
     padding-top: 0;
+    width: 460px;
+    margin: 0 auto;
   }
   .header__slogan h2 {
-    width: auto;
+    width: 310px;
+  }
+  .header__decor {
+    padding-top: 115px;
   }
   .header__decor img {
-    width: 50%;
+    width: 569px;
   }
-  .header__slogan p {
-    width: auto;
+  .header__top {
+    margin-bottom: 60px;
+  }
+  .button {
     text-align: center;
   }
   section.about {
@@ -713,6 +719,11 @@ footer.footer {
   }
   .wrapper {
     padding: 0 30px;
+  }
+  .header__slogan {
+    width: 460px;
+    padding-top: 0;
+    margin: 0 auto;
   }
   .our-friends__gallery_inner .items {
     display: grid;
