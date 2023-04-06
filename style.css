@@ -177,6 +177,11 @@ h5 {
   width: 460px;
 }
 
+.header__decor {
+  text-align: right;
+  width: 100%;
+}
+
 .header__decor img {
   margin-bottom: -5px;
 }
