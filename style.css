@@ -115,6 +115,10 @@ h5 {
   letter-spacing: 0.3ex;
 }
 
+.burger__menu {
+  display: none;
+}
+
 .header ul nav {
   display: flex;
 }
@@ -797,6 +801,13 @@ footer.footer {
 @media only screen and (max-width: 320px) {
   .wrapper {
     padding: 0 10px;
+  }
+  .header__menu nav ul {
+    display: none;
+    gap: 11px;
+  }
+  .burger__menu {
+    display: block;
   }
 }
 
