@@ -638,6 +638,10 @@ footer.footer {
   .header__promo .button {
     text-align: center;
   }
+  .help__icons {
+    width: auto;
+    margin: 0 auto;
+  }
   section.about {
     padding: 0;
   }
@@ -669,15 +673,9 @@ footer.footer {
   .our-friends__gallery {
     overflow-y: hidden;
     height: 435px;
-    min-width: 500px;
   }
   .slider-our-friends {
     margin-bottom: 35px;
-  }
-  .our-friends__gallery {
-    overflow-y: hidden;
-    height: 435px;
-    min-width: 500px;
   }
   .items {
     gap: 40px;
@@ -792,22 +790,298 @@ footer.footer {
   .wrapper {
     padding: 0 30px;
   }
+  .header {
+    width: 100%;
+  }
+  .header__menu nav ul {
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+  }
   .header__slogan {
     width: 460px;
     padding-top: 0;
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 320px) {
-  .wrapper {
-    padding: 0 10px;
-  }
+@media only screen and (max-width: 767.5px) {
   .header__menu nav ul {
     display: none;
-    gap: 11px;
   }
   .burger__menu {
     display: block;
+    width: 30px;
+    padding-right: 0px;
+    padding-top: 12px;
+  }
+  .burger__menu span {
+    display: block;
+    margin: 7px 0;
+    width: 30px;
+  }
+  .header .burger__menu span {
+    border: 1px solid #F1CDB3;
+  }
+  .header__decor img, .addition__decor img, .about__decor img, .footer__decor img {
+    width: 70%;
+  }
+  .header__slogan, .header__slogan p, .about__content, .our-friends h3, .header__slogan h2, .our-friends h3, .about__content h1, .addition__content, .card {
+    width: auto;
+  }
+  /* inner page */
+  .header_inner .burger__menu span {
+    border: 1px solid #000000;
+  }
+}
+@media only screen and (max-width: 599.5px) {
+  section.our-friends {
+    padding: 40px 0 20px 0;
+  }
+  .slider-our-friends {
+    display: flex;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 270px;
+    margin: 0 auto;
+  }
+  .navigation__left {
+    flex-shrink: 0;
+    width: 52px;
+    padding-top: 0;
+  }
+  .navigation__right {
+    flex-shrink: 0;
+    width: 52px;
+    padding-top: 0;
+  }
+  .our-friends__gallery {
+    overflow-y: hidden;
+    order: -1;
+    height: 435px;
+    min-width: 200px;
+  }
+  .slider-our-friends {
+    margin-bottom: 30px;
+  }
+  .our-friends__gallery {
+    overflow-y: hidden;
+    height: 435px;
+    min-width: 200px;
+  }
+  .fiends__button {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /* inner page */
+  .our-friends_inner h1 {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .about__content h1, .our-friends h3, .help h3, h2, .addition h3, .footer__header {
+    font: 400 25px/1.25 Georgia;
+    letter-spacing: 0.06em;
+  }
+  .wrapper {
+    padding: 0 10px;
+  }
+  .header__promo {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .header__slogan h2 {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header__slogan {
+    width: auto;
+  }
+  .header__slogan p {
+    padding: 2px 0 60px 0;
+    width: auto;
+  }
+  .header__top {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .header__decor img {
+    width: 260px;
+    margin-bottom: -4px;
+  }
+  .about__content {
+    padding-top: 35px;
+    width: 270px;
+    margin: 0 auto;
+  }
+  .about__content h1 {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about__content p {
+    text-align: justify;
+  }
+  .about__decor {
+    padding: 25px 0 40px 0;
+  }
+  section.our-friends {
+    padding: 40px 0 20px 0;
+  }
+  .our-friends h3 {
+    width: 300px;
+    padding-bottom: 41px;
+  }
+  .slider-our-friends {
+    display: flex;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 270px;
+    margin: 0 auto;
+  }
+  .navigation__left {
+    flex-shrink: 0;
+    width: 52px;
+    padding-top: 0;
+  }
+  .navigation__right {
+    flex-shrink: 0;
+    width: 52px;
+    padding-top: 0;
+  }
+  .our-friends__gallery {
+    overflow-y: hidden;
+    order: -1;
+    height: 435px;
+    min-width: 200px;
+  }
+  .slider-our-friends {
+    margin-bottom: 30px;
+  }
+  .our-friends__gallery {
+    overflow-y: hidden;
+    height: 435px;
+    min-width: 200px;
+  }
+  .fiends__button {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer__decor img {
+    width: 260px;
+  }
+  .about__decor img {
+    width: 260px;
+  }
+  section.help .wrapper {
+    padding: 42px 0 40px 0;
+  }
+  .help h3 {
+    padding-bottom: 40px;
+  }
+  .help__icons .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+  }
+  .help__icons .icon-help {
+    margin-bottom: 0px;
+    width: 130px;
+  }
+  .help__icons .icon-help img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  .help__icons h4 {
+    font: 400 15px/1.1 Georgia;
+    letter-spacing: 0.06em;
+  }
+  section.addition .wrapper {
+    padding: 45px 10px 40px 10px;
+  }
+  section.addition .addition__content h3 {
+    text-align: center;
+  }
+  section.addition .addition__content h5 {
+    text-align: center;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+  }
+  .addition__content {
+    width: auto;
+  }
+  .addition__content .addition__annotation {
+    width: 280px;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  .card {
+    width: 250px;
+    padding: 6px 15px;
+    margin: 0 auto;
+  }
+  .card h4 {
+    font-size: 15px;
+    padding: 5px 0px 5px 42px;
+  }
+  .addition__decor img {
+    width: 260px;
+  }
+  .addition__decor {
+    padding-top: 45px;
+  }
+  footer.footer {
+    padding-top: 30px;
+  }
+  .footer__header {
+    text-align: center;
+  }
+  .footer__block {
+    row-gap: 25px;
+  }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__visit {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .footer__visit .footer__header {
+    margin: 0 0 10px 0;
+  }
+  .footer__visit .footer__list {
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+  .footer__visit .footer__location a {
+    padding: 10px 0 10px 35px;
+  }
+  .footer__decor {
+    padding-top: 6px;
+  }
+  .footer__decor img {
+    margin-bottom: -3px;
+  }
+  /* inner */
+  .our-friends_inner {
+    padding: 42px 0 45px 0;
+  }
+  .our-friends_inner h1 {
+    font: 400 25px/1.25 Georgia;
+    letter-spacing: 0.06em;
+    width: auto;
+    padding-bottom: 45px;
+  }
+  .pagination_inner {
+    gap: 0;
+    justify-content: space-between;
   }
 }
 
