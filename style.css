@@ -815,12 +815,11 @@ footer.footer {
     padding-right: 0px;
     padding-top: 12px;
   }
-  .burger__menu span {
-    display: block;
+  .burger__menu div {
     margin: 7px 0;
     width: 30px;
   }
-  .header .burger__menu span {
+  .header .burger__menu div {
     border: 1px solid #F1CDB3;
   }
   .header__decor img, .addition__decor img, .about__decor img, .footer__decor img {
@@ -830,7 +829,7 @@ footer.footer {
     width: auto;
   }
   /* inner page */
-  .header_inner .burger__menu span {
+  .header_inner .burger__menu div {
     border: 1px solid #000000;
   }
 }
